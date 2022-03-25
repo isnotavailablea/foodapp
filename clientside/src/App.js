@@ -5,7 +5,6 @@ import Index from "./login/index"
 function App() {
   const {loggedin,loggedas,as,actionis}=useSelector((state)=>state.log.value)
   if(!loggedin){
-    console.log(Boolean(loggedin))
     return <Index/>
   }
   else if(loggedin && loggedas==="hotel"){

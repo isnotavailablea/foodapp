@@ -161,3 +161,79 @@ a {
       width: 100%;
   }
 }
+.otp-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #24292f;
+
+}
+
+.otp-title{
+  font-size: 2rem;
+  color: aqua;
+  background-color: #24292f;
+  padding: min(2rem,100px);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.otp-form{
+  border: 1px solid black;
+  display: flex;
+  justify-items: center;
+  padding: 1rem;
+  margin: 3rem;
+  width: min(600px,90vw);
+  flex-direction: column;
+  margin: 2rem;
+}
+.otp-form input{
+  display: block;
+  border-radius: 0 0 0 0;
+    width: min(80vw,100%);
+    font-size: 1.3rem;
+    font-weight: 30;
+    margin-bottom: 10px;
+    padding:0.5rem;
+}
+.otp-resend{
+  font-size: 0.6rem;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 1.5rem;
+}
+.otp-resend button{
+  padding: 0.4rem;
+  border-color: black;
+}
+.otp-form label{
+  margin-bottom:  1rem;
+  display: block;
+  font-size: 1.4rem;
+  padding: 0 0 0 0;
+  color: aqua;
+}
+.otp-form:hover{
+  border:3px solid aqua;
+ box-shadow: 10px 10px aqua;
+}
+.otp-submit{
+  display: flex;
+  justify-content: center;
+}
+.otp-submit button{
+  padding: 0.5rem;
+  border-color: aqua;
+}
+.otp-timer{
+  font-size: 8rem;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}

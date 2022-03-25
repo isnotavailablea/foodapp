@@ -12,5 +12,5 @@ const loggedinslice=createSlice({
         }
     }
 })
-export const {login}=loggedinslice.actions;
+export const {login,logout}=loggedinslice.actions;
 export default loggedinslice.reducer;
